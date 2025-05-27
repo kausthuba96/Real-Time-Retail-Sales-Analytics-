@@ -1,0 +1,48 @@
+{
+	"name": "SnowflakeTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Snowflake2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SnowflakeV2Table",
+		"schema": [
+			{
+				"name": "MONTH_NAME",
+				"type": "VARCHAR"
+			},
+			{
+				"name": "YEAR",
+				"type": "NUMBER",
+				"precision": 38,
+				"scale": 0
+			},
+			{
+				"name": "GENDER",
+				"type": "VARCHAR"
+			},
+			{
+				"name": "AGE",
+				"type": "VARCHAR"
+			},
+			{
+				"name": "PRODUCT_CATEGORY",
+				"type": "VARCHAR"
+			},
+			{
+				"name": "TOTAL_QUANTITY",
+				"type": "FLOAT"
+			},
+			{
+				"name": "TOTAL_SALES_AMOUNT",
+				"type": "FLOAT"
+			}
+		],
+		"typeProperties": {
+			"schema": "SALES",
+			"table": "RETAIL_SALES"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,54 @@
+{
+	"name": "AzureSqlTableinput",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabaseinput",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Transaction_ID",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Date",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Customer_ID",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Gender",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Age",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Product_Category",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Quantity",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Price_per_Unit",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Total_Amount",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "SalesStore"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

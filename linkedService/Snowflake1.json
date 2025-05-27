@@ -1,0 +1,18 @@
+{
+	"name": "Snowflake1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SnowflakeV2",
+		"typeProperties": {
+			"authenticationType": "Basic",
+			"accountIdentifier": "kg07274.canada-central.azure",
+			"user": "KAUSTHUBAVANAM",
+			"database": "RETAILS",
+			"warehouse": "COMPUTE_WH",
+			"role": "ACCOUNTADMIN",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEVCNEJBRkQ2LTMxMUUtNDVCNC1CRUJCLTc0RDc0RTIzN0FCQl85NjU0YmNkZi0yY2FhLTQwNzgtODUxYS05NGM2ZGZhN2E1ZTEiDQp9"
+		},
+		"version": "1.1"
+	}
+}
